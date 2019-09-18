@@ -1,16 +1,16 @@
 [
 	{
-		"displayText": "@vector",
+		"displayText": "vector",
 		"snippet": "std::vector",
 		"description": "C++ vector"
 	},
 	{
-		"displayText": "@_if",
+		"displayText": "_if",
 		"snippet": "if (formula){\n}",
 		"description": "C++ if"
 	},
 	{
-		"displayText": "@v_iterator",
+		"displayText": "v_iterator",
 		"snippet": "std::vector::iterator",
 		"description": "C++ Container1"
 	},
