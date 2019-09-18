@@ -19,4 +19,10 @@
 		"snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
 		"description": "Final snippet."
 	}
+	{
+		"displayText": "@冠爷",
+		"snippet": "哈哈哈",
+		"description": "我学会了自动填充"
+	}
+	
 ]
