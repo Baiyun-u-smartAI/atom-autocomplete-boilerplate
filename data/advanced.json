@@ -6,12 +6,12 @@
 	},
 	{
 		"displayText": "_if",
-		"snippet": "if (formula){\n}",
+		"snippet": "if $1{(formula)}{\n}",
 		"description": "C++ if"
 	},
 	{
 		"displayText": "v_iterator",
-		"snippet": "std::vector::iterator",
+		"snippet": "std::vector::iterator $1",
 		"description": "C++ Container1"
 	},
 	{
