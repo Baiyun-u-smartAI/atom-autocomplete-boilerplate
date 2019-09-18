@@ -1,18 +1,18 @@
 [
 	{
-		"displayText": "@snippet1",
-		"snippet": "Start typing to replace ${1:this text}.",
-		"description": "A simple snippet."
+		"displayText": "@vector",
+		"snippet": "std::vector",
+		"description": "C++ vector"
 	},
 	{
-		"displayText": "@snippet2",
-		"snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
-		"description": "Another snippet."
+		"displayText": "@_if",
+		"snippet": "if (formula){\n}",
+		"description": "C++ if"
 	},
 	{
-		"displayText": "@snippet3",
-		"snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
-		"description": "Yet another snippet."
+		"displayText": "@v_iterator",
+		"snippet": "std::vector::iterator",
+		"description": "C++ Container1"
 	},
 	{
 		"displayText": "@snippet4",
