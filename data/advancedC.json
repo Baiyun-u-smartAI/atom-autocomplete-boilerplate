@@ -1,0 +1,62 @@
+[
+	{
+		"displayText": "vector",
+		"snippet": "std::vector",
+		"description": "C++ vector类型"
+	},
+	{
+		"displayText": "push",
+		"snippet": ".push_back()",
+		"description": "C++ vector"
+	},
+	{
+		"displayText": "pop",
+		"snippet": ".pop_back()",
+		"description": "C++ vector"
+	},
+	{
+		"displayText": "size",
+		"snippet": ".size()",
+		"description": "C++ Container"
+	},
+	{
+		"displayText": "if",
+		"snippet": "if ( ${1:formula} ){\n\n}",
+		"description": "C++ if"
+	},
+	{
+		"displayText": "v_iterator",
+		"snippet": "std::vector<${1:Type}>::iterator ",
+		"description": "C++ Container1"
+	},
+	{
+		"displayText": "@测试1",
+		"snippet": "测试的内容",
+		"description": "personal autocomplete"
+	},
+	{
+		"displayText": "for",
+		"snippet": "for (auto i : ${1:VarName} ){\n\n}",
+		"description": "C++ for auto"
+	},
+	{
+		"displayText": "or",
+		"snippet": " || ${1:formula}",
+		"description": "C++ or"
+	},
+	{
+		"displayText": "and",
+		"snippet": " && ${1:formula}",
+		"description": "C++ and"
+	},
+	{
+		"displayText": "xor",
+		"snippet": " ^ ${2:formula}",
+		"description": "C++ xor"
+	},
+	{
+		"displayText": "class",
+		"snippet": "class ${1:ClassName}{\npublic:\n\t\n\t\nprivate:\n\t\n\t\nprotected:\n\t\n\t\n}",
+		"description": "C++ class"
+	}
+]
