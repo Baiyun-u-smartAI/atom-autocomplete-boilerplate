@@ -1,5 +1,75 @@
 [
 	{
+		"displayText": "Blockquotes",
+		"snippet": ">${1:Bold Sentence}",
+		"description": "标签"
+	},
+	{
+		"displayText": "Blockquotes 2",
+		"snippet": ">>${1:Bold Sentence}",
+		"description": "二级标签"
+	},
+	{
+		"displayText": "Blockquotes 3",
+		"snippet": ">>>${1:Bold Sentence}",
+		"description": "三级标签"
+	},
+	{
+		"displayText": "Blue",
+		"snippet": "<font color=#0000FF>${1:text}</font>",
+		"description": "蓝颜色字"
+	},
+	{
+		"displayText": "Bold 1",
+		"snippet": "**${1:Bold Sentence}**",
+		"description": "加粗(**)"
+	},
+	{
+		"displayText": "Bold 2",
+		"snippet": "<b>${1:Bold Sentence}</b>",
+		"description": "加粗(<b>)"
+	},
+	{
+		"displayText": "BoldItalic",
+		"snippet": "***${1:Bold Sentence}***",
+		"description": "加粗斜体"
+	},
+	{
+		"displayText": "CodeBlock C++",
+		"snippet": "```cpp\n${1:C++ code}\n```",
+		"description": "C++代码块"
+	},
+	{
+		"displayText": "CodeBlock Java",
+		"snippet": "```java\n${1:Java code}\n```",
+		"description": "Java代码块"
+	},
+	{
+		"displayText": "CodeBlock JavaScript",
+		"snippet": "```javascript\n${1:JavaScript code}\n```",
+		"description": "JavaScript代码块"
+	},
+	{
+		"displayText": "CodeBlock Python",
+		"snippet": "```python\n${1:Python code}\n```",
+		"description": "Python代码块"
+	},
+	{
+		"displayText": "CodeSimple",
+		"snippet": "`${1:Simple Code Phrase}`",
+		"description": "简单的单行代码块，无语法颜色标记"
+	},
+	{
+		"displayText": "FontSize",
+		"snippet": "<font size=${1:Size}></font>",
+		"description": "字体设置"
+	},
+	{
+		"displayText": "Green",
+		"snippet": "<font color=#00DD00>${1:text}</font>",
+		"description": "绿颜色字"
+	},
+	{
 		"displayText": "Heading level 1",
 		"snippet": "# ${1:title}",
 		"description": "一级标题"
@@ -20,24 +90,14 @@
 		"description": "四级标题"
 	},
 	{
-		"displayText": "LineSplit",
-		"snippet": "----------------------------------------------------\n",
-		"description": "分割线"
+		"displayText": "ImgCenter",
+		"snippet": "<center><img src=\"${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg}\"><br/>\nexample title</center>",
+		"description": "图片居中，含标题居中"
 	},
 	{
-		"displayText": "LineBreak",
-		"snippet": "<br/>\n",
-		"description": "\\n"
-	},
-	{
-		"displayText": "Bold 1",
-		"snippet": "**${1:Bold Sentence}**",
-		"description": "加粗(**)"
-	},
-	{
-		"displayText": "Bold 2",
-		"snippet": "<b>${1:Bold Sentence}</b>",
-		"description": "加粗(<b>)"
+		"displayText": "ImgDefault",
+		"snippet": "![](${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg})",
+		"description": "默认的md图片输入，左对齐"
 	},
 	{
 		"displayText": "Italic 1",
@@ -50,113 +110,58 @@
 		"description": "斜体<i>"
 	},
 	{
-		"displayText": "BoldItalic",
-		"snippet": "***${1:Bold Sentence}***",
-		"description": "加粗斜体"
+		"displayText": "LineBreak",
+		"snippet": "<br/>\n",
+		"description": "\\n"
 	},
 	{
-		"displayText": "Blockquotes",
-		"snippet": ">${1:Bold Sentence}",
-		"description": "标签"
+		"displayText": "LineDel 1",
+		"snippet": "~~${1:Flat text}~~",
+		"description": "删除线(~~)"
 	},
 	{
-		"displayText": "Blockquotes 2",
-		"snippet": ">>${1:Bold Sentence}",
-		"description": "二级标签"
+		"displayText": "LineDel 2",
+		"snippet": "<del>${1:Flat text}</del>",
+		"description": "删除线(del)"
 	},
 	{
-		"displayText": "Blockquotes 2",
-		"snippet": ">>${1:Bold Sentence}",
-		"description": "二级标签"
+		"displayText": "LineHorizontal",
+		"snippet": "----------------------------------------------------",
+		"description": "水平分割线"
 	},
 	{
-	    "displayText": "ImgDefault",
-	    "snippet": "![](${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg})",
-	    "description": "默认的md图片输入，左对齐"
+		"displayText": "LineSplit",
+		"snippet": "----------------------------------------------------\n",
+		"description": "分割线"
 	},
 	{
-	    "displayText": "ImgCenter",
-	    "snippet": "<center><img src=\"${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg}\"><br/>\nexample title</center>",
-	    "description": "图片居中，含标题居中"
+		"displayText": "Links",
+		"snippet": "[${1:Text for link jump}](http)",
+		"description": "为文字创建网页链接"
 	},
 	{
-	    "displayText": "CodeSimple",
-	    "snippet": "`${1:Simple Code Phrase}`",
-	    "description": "简单的单行代码块，无语法颜色标记"
+		"displayText": "LinksReference",
+		"snippet": "[${1:Text for link jump}][${1:Node}]\n\n\n[${1:Node}]:<http>\"something to explain\"",
+		"description": "为文字创建带解释的网页链接"
 	},
 	{
-	    "displayText": "CodeBlock C++",
-	    "snippet": "```cpp\n${1:C++ code}\n```",
-	    "description": "C++代码块"
+		"displayText": "Red",
+		"snippet": "<font color=#FF0000>${1:text}</font>",
+		"description": "红颜色字"
 	},
 	{
-	    "displayText": "CodeBlock Python",
-	    "snippet": "```python\n${1:Python code}\n```",
-	    "description": "Python代码块"
+		"displayText": "Tables 1",
+		"snippet": "|${1:栏目1}|${1:栏目2}|${1:栏目3}|\n|:-------:|:-------:|:-------:|\n|${1:值1}|${1:值2}|${1:值3}|\n|${1:值4}|${1:值5}|${1:值6}|",
+		"description": "有表头的表格(3x3)"
 	},
 	{
-	    "displayText": "CodeBlock Java",
-	    "snippet": "```java\n${1:Java code}\n```",
-	    "description": "Java代码块"
+		"displayText": "Tables 2",
+		"snippet": "|<span style=\"font-weight:normal\">${1:栏目1}</span>|<span style=\"font-weight:normal\">${1:栏目2}</span>|<span style=\"font-weight:normal\">${1:栏目3}</span>|\n|:-------:|:-------:|:-------:|\n|${1:值1}|${1:值2}|${1:值3}|\n|${1:值4}|${1:值5}|${1:值6}|",
+		"description": "无表头的表格(3x3)"
 	},
 	{
-	    "displayText": "CodeBlock JavaScript",
-	    "snippet": "```javascript\n${1:JavaScript code}\n```",
-	    "description": "JavaScript代码块"
-	},
-	{
-	    "displayText": "Links",
-	    "snippet": "[${1:Text for link jump}](http)",
-	    "description": "为文字创建网页链接"
-	},
-	{
-	    "displayText": "LinksReference",
-	    "snippet": "[${1:Text for link jump}][${1:Node}]\n\n\n[${1:Node}]:<http>\"something to explain\"",
-	    "description": "为文字创建带解释的网页链接"
-	},
-	{
-	    "displayText": "Tables 1",
-	    "snippet": "|${1:栏目1}|${1:栏目2}|${1:栏目3}|\n|:-------:|:-------:|:-------:|\n|${1:值1}|${1:值2}|${1:值3}|\n|${1:值4}|${1:值5}|${1:值6}|",
-	    "description": "有表头的表格(3x3)"
-	},
-	{
-	    "displayText": "Tables 2",
-	    "snippet": "|<span style=\"font-weight:normal\">${1:栏目1}</span>|<span style=\"font-weight:normal\">${1:栏目2}</span>|<span style=\"font-weight:normal\">${1:栏目3}</span>|\n|:-------:|:-------:|:-------:|\n|${1:值1}|${1:值2}|${1:值3}|\n|${1:值4}|${1:值5}|${1:值6}|",
-	    "description": "无表头的表格(3x3)"
-	},
-	{
-	    "displayText": "LineHorizontal",
-	    "snippet": "----------------------------------------------------",
-	    "description": "水平分割线"
-	},
-	{
-	    "displayText": "LineDel 1",
-	    "snippet": "~~${1:Flat text}~~",
-	    "description": "删除线(~~)"
-	},
-	{
-	    "displayText": "LineDel 2",
-	    "snippet": "<del>${1:Flat text}</del>",
-	    "description": "删除线(del)"
-	},
-	{
-	    "displayText": "Green",
-	    "snippet": "<font color=#00DD00>${1:text}</font>",
-	    "description": "绿颜色字"
-	},
-	{
-	    "displayText": "Red",
-	    "snippet": "<font color=#FF0000>${1:text}</font>",
-	    "description": "红颜色字"
-	},
-	{
-	    "displayText": "Blue",
-	    "snippet": "<font color=#0000FF>${1:text}</font>",
-	    "description": "蓝颜色字"
-	},
-	{
-	    "displayText": "Underline",
-	    "snippet": "<u>${1:text}</u>",
-	    "description": "下划线"
+		"displayText": "Underline",
+		"snippet": "<u>${1:text}</u>",
+		"description": "下划线"
 	}
 ]
