@@ -36,7 +36,7 @@
 	},
 	{
 		"displayText": "CodeBlock C++",
-		"snippet": "```cpp\n${1:C++ code}\n```",
+		"snippet": "```cpp\n${1:#include <iostream>\rint main(){\r      std::cout<<\"hello world\";\r}}\n```",
 		"description": "C++代码块"
 	},
 	{
@@ -96,7 +96,7 @@
 	},
 	{
 		"displayText": "ImgDefault",
-		"snippet": "![](${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg})",
+		"snippet": "![](${1:https://image.shutterstock.com/image-vector/example-stamp-260nw-426673501.jpg})\r",
 		"description": "默认的md图片输入，左对齐"
 	},
 	{
